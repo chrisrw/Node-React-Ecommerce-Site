@@ -1,11 +1,22 @@
 /**
  * border radius
  */
-
+body {
+    background: #d8e4d4
+}
 .btn,
 .jumbotron,
 .nav :hover {
     border-radius: 0px;
+}
+
+.menu {
+    display:flex;
+    justify-content: flex-end;
+    background: #046307;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 1.1em;
 }
 
 /* cart badge */
@@ -54,6 +65,9 @@
 
 .product-img {
     min-height: 100px;
+    margin:0 auto;
+    width: 50%
+
 }
 
 .jumbotron h2 {
